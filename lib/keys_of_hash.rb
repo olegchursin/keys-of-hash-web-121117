@@ -4,6 +4,7 @@ class Hash
     map do |key, value|
       if arguments.include?(value)
         key
-      end
-  end.compact
+      end.compact
+    end
+  end
 end
