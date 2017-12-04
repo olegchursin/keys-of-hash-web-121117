@@ -5,6 +5,6 @@ class Hash
       if arguments.include?(value)
         key
       end
-    end
+    end.compact
   end
 end
